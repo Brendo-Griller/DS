@@ -8,7 +8,7 @@
 <body>
     <?php
     $nome= "Brendo";
-    echo "<h1>Ola,$nome</h1>"
+    echo "<h1>Ola,$nome</h1>";
     ?>
 </body>
 </html>
