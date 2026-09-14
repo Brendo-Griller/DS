@@ -11,9 +11,9 @@
     $idade= 30;
      
     if ($nome > 18){
-        $maior = "sim, é maior de idade";
+        $maior = "sim";
     }else{
-        $maior = "não, é de maior";
+        $maior = "não";
 
     }
 
