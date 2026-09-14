@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo "<h1>Ola git</h1>";
+    <?php
+    $nome= "Brendo";
+    echo "<h1>Ola,$nome</h1>"
     ?>
 </body>
 </html>
