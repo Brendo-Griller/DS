@@ -1,7 +1,11 @@
+*{
+    background-color: black;
+}
+
 h1 {
-    background-color: yellowgreen;
+    color: yellowgreen;
 }
 
 p {
-    background-color: bisque;
+    color: bisque;
 }
