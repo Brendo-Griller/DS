@@ -1,7 +1,7 @@
 <?php
     $nome = "";
     $idade = 0;
-    $resultado= "";
+    $resultado = "";
      
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
         $nome = $_POST["nome"];
@@ -17,7 +17,7 @@
 
     ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
