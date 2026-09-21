@@ -25,9 +25,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>nome:<?= $nome?></h1>
-    <p>idade:<?= $idade?></p>
-    <p>É maior de idade<?=$maior?></p>
+    <h1>nome: <?= $nome?></h1>
+    <p>idade: <?= $idade?></p>
+    <p>Qual é seu nome e idade ?<?=$maior?></p>
 
     <form method="POST">
 
