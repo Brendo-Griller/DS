@@ -8,7 +8,7 @@
         $idade = $_POST["idade"];
     }
 
-    if ($nome > 18){
+    if ($idade > 18){
         $resultado = "sim";
     }else{
         $resultado = "não";
