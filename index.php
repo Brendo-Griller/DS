@@ -9,6 +9,7 @@
     <ul>
       <li><a href="idade.php"> Validação de Idade</a></li>
       <li><a href="nota.php">Notas</a></li>
+      <li><a href="desafio.php">Desafio</a></li>
     </ul>
 </body>
 </html>
