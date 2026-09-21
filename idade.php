@@ -49,7 +49,7 @@
 
        </div>
     <?php } ?>
-    <br>
+    <br><br>
     <a href="index.php">Inicio</a>
 </body>
 </html>

@@ -80,6 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         <p>Situação do Aluno <?=$situação ?></p>
 
     <?php }?>
-
+    <br><br>
+    <a href="index.php">Inicio</a>
 </body>
 </html>
