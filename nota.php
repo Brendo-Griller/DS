@@ -14,6 +14,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nota3 = $_POST["nota3"];
     $nota4 = $_POST["nota4"];
     $nota5 = $_POST["nota5"];
+
+    $media  = (
+        ($nota1 * 2) + ($nota2 * 3) + ($nota3 * 1) + ($nota4 * 1) + ($nota5 * 3)
+    )/10;
+
+    if ($media >=7) {
+        $situação = "Aprovado";
+    }elseif ($media >= 5 && $media < 7){
+        $situação = "Recuperação";
+    }else {
+        $situação = "Reprovado";
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -24,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Document</title>
 </head>
 <body>
-    <form method="POST"></form>
+    <form method="POST">
     <label for="nome"></label>
     <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
     <br><br>
@@ -52,7 +64,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label for="nota5">Idade</label>
     <input type="number" id="nota5" name="nota5" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
+    
+    <button type="submit"> Enviar </button>
+    </form>
 
-    <label for="nota"></label>
+    <?php if ($situação !=""){?>
+        <p> Nome do Aluno: <?= $nome ?></p>
+        <p>Idade do aluno: <?= $idade ?></p>
+        <p>nota1: <?= $nota1 ?></p>
+        <p>nota2: <?= $nota2 ?></p>
+        <p>nota3: <?= $nota3 ?></p>
+        <p>nota4: <?= $nota4 ?></p>
+        <p>nota5: <?= $nota5 ?></p>
+    <?php }?>
+
 </body>
 </html>
