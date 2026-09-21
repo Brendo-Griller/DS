@@ -76,6 +76,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>nota3: <?= $nota3 ?></p>
         <p>nota4: <?= $nota4 ?></p>
         <p>nota5: <?= $nota5 ?></p>
+        <p>Media do Aluno <?= $media ?></p>
+        <p>Situação do Aluno <?=$situação ?></p>
+
     <?php }?>
 
 </body>
