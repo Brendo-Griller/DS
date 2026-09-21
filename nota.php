@@ -45,23 +45,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="number" id="idade" name="idade" placeholder="Digite sua idade">
     <br><br>
 
-    <label for="nota1">Nota</label>
+    <label for="nota1">Nota1</label>
     <input type="number" id="nota1" name="nota1" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
 
-    <label for="nota2">Nota</label>
+    <label for="nota2">Nota2</label>
     <input type="number" id="nota2" name="nota2" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
     
-    <label for="nota3">Nota</label>
+    <label for="nota3">Nota3</label>
     <input type="number" id="nota3" name="nota3" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
 
-    <label for="nota4">Nota</label>
+    <label for="nota4">Nota4</label>
     <input type="number" id="nota4" name="nota4" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
 
-    <label for="nota5">Nota</label>
+    <label for="nota5">Nota5</label>
     <input type="number" id="nota5" name="nota5" min=0 max=10 placeholder="Digite sua idade">
     <br><br>
     
