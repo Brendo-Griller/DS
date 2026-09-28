@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Página de Login</title>
-    
+    <link rel="stylesheet" href="login-basico.css">
 </head>
 <body>
 
