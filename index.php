@@ -10,6 +10,7 @@
       <li><a href="idade.php"> Validação de Idade</a></li>
       <li><a href="nota.php">Notas</a></li>
       <li><a href="desafio.php">Desafio</a></li>
+      <li><a href="login-basico">Login-Basico</a></li>
     </ul>
 </body>
 </html>
