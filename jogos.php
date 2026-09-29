@@ -1,5 +1,5 @@
 <?php
-require 'conexao2.php';
+require 'conexao.php';
 
 $sqlTabela = "CREATE TABLE IF NOT EXISTS jogos (
     id INT PRIMARY KEY AUTO_INCREMENT,
