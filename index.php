@@ -28,6 +28,7 @@ echo "<br>Tabela criada com sucesso!";
       <li><a href="nota.php">Notas</a></li>
       <li><a href="desafio.php">Desafio</a></li>
       <li><a href="login-basico.php">Login-Basico</a></li>
+      <li><a href="jogos.php">Jogos</a></li>
     </ul>
 </body>
 </html>
