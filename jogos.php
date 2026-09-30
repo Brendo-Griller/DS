@@ -70,11 +70,11 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <?php foreach($jogos as $jogo) { ?>
             <tr>
-                <tr><?= $jogo["id"]?></tr>
-                <tr><?= $jogo["nome"]?></tr>
-                <tr><?= $jogo["genero"]?></tr>
-                <tr><?= $jogo["nota"]?></tr>
-                <tr><?= $jogo["ano_lancamento"]?></tr>
+                <td><?= $jogo["id"]?></td>
+                <td><?= $jogo["nome"]?></td>
+                <td><?= $jogo["genero"]?></td>
+                <td><?= $jogo["nota"]?></td>
+                <td><?= $jogo["ano_lancamento"]?></td>
             </tr>
             <?php } ?>
     </table>
