@@ -60,7 +60,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <input type="number" name="ano_lancamento" id="ano_lancamento" required>
         
         <label for="senha">Senha:</label>
-        <input type="caracter" name="Senha" id="senha" required>
+        <input type="password" name="Senha" id="senha" required>
         
         <button type="submit">Cadastrar</button>
     </form>
