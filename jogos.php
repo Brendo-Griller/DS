@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $genero = $_POST["genero"];
     $nota = $_POST["nota"];
     $ano_lancamento = $_POST["ano_lancamento"];
+    $senha = $_POST["senha"];
 
     if ($senha == '******'){
     $sqlInsert = "INSERT INTO jogos (nome, genero, nota, ano_lancamento) VALUES ('$nome', '$genero', $nota, $ano_lancamento)";
