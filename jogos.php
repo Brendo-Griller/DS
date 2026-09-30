@@ -9,6 +9,7 @@ $sqlTabela = "CREATE TABLE IF NOT EXISTS jogos (
     ano_lancamento INT
 )";
 $pdo->exec($sqlTabela);
+$senha = "******";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
@@ -16,10 +17,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nota = $_POST["nota"];
     $ano_lancamento = $_POST["ano_lancamento"];
 
+    if ($senha == '******'){
     $sqlInsert = "INSERT INTO jogos (nome, genero, nota, ano_lancamento) VALUES ('$nome', '$genero', $nota, $ano_lancamento)";
     $pdo->exec($sqlInsert);
     
     echo "<p class='mensagem'>Jogo cadastrado com sucesso!</p>";
+}
 }
 //buscar todos os jogos registrados no banco de dados.
 $buscar = "SELECT * FROM jogos";
@@ -54,6 +57,9 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         <label for="ano_lancamento">Ano de lançamento:</label>
         <input type="number" name="ano_lancamento" id="ano_lancamento" required>
+        
+        <label for="senha">Senha:</label>
+        <input type="caracter" name="Senha" id="senha" required>
         
         <button type="submit">Cadastrar</button>
     </form>
