@@ -73,6 +73,7 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <tr><?= $jogo["nome"]?></tr>
                 <tr><?= $jogo["genero"]?></tr>
                 <tr><?= $jogo["nota"]?></tr>
+                <tr><?= $jogo["ano_lancamento"]?></tr>
             </tr>
             <?php } ?>
     </table>
