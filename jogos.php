@@ -65,9 +65,10 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <tr>Nome</tr>
             <tr>Gênero</tr>
             <tr>Nota</tr>
+            <tr>Ano</tr>
         </tr>
 
-        <?php foreach($jogos as $jogos) { ?>
+        <?php foreach($jogos as $jogo) { ?>
             <tr>
                 <tr><?= $jogo["id"]?></tr>
                 <tr><?= $jogo["nome"]?></tr>
