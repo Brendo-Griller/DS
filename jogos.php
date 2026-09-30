@@ -61,11 +61,11 @@ $jogos = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <h2>JOGOS CADASTRADOS</h2>
     <table>
         <tr>
-            <tr>ID</tr>
-            <tr>Nome</tr>
-            <tr>Gênero</tr>
-            <tr>Nota</tr>
-            <tr>Ano</tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Gênero</th>
+            <th>Nota</th>
+            <th>Ano</th>
         </tr>
 
         <?php foreach($jogos as $jogo) { ?>
